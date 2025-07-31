@@ -38,12 +38,15 @@
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
    }
 
    section#login > div#imagem {
     display: block;
      background: #5f2c82 url(../imagens/pexels-megan-forbes-347998-963436.jpg);
-     background-position: left bottom;
+     background-position: center;
      height: 200px;
 
    }
